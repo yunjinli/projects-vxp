@@ -111,13 +111,14 @@ body {
 }
 
 .results-carousel {
+  text-align: center;
   overflow: hidden;
 }
 
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  padding: 100px;
+  padding: 20px;
   font-size: 0;
 }
 
