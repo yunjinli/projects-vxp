@@ -111,7 +111,11 @@ body {
 }
 
 .results-carousel {
-  text-align: center;
+  /* text-align: center; */
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   overflow: hidden;
 }
 
