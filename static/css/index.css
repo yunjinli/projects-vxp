@@ -114,21 +114,11 @@ body {
   overflow: hidden;
 }
 
-/* .results-carousel .item {
+.results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  padding: 20px;
+  padding: 100px;
   font-size: 0;
-} */
-.results-carousel .item {
-  /* width: 80%;
-  margin: auto;
-  display: block;
-  font-size: 0; */
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .results-carousel video {
