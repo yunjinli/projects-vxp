@@ -133,11 +133,12 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
+        <!-- <source src="static/videos/banner_video.mp4" -->
+        <source src="static/images/teaser_figure_w_traj.jpg"
+        type="image/jpg">
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Voxel-Cross-Pixel (VXP) can effectively map data from different modalities into a same shared space, enabling more robust and flexible place recognition. The figure illustrates a case where we have a database recorded at day, and we want to localize the car when driving at night (Note that the blue cross in the map is the current location and the blue boxes are the corresponding data from camera and LiDAR). In this real- world case, uni-modal retrieval (2D-2D) fails because of the variation in light condition. With the aid of VXP, we can potentially use point cloud data, which is robust against environmental changes, to retrieve the correct image (green) in the database (3D-2D). Note that in the latent space, we try to visualize the value for each dimension of a given descriptor (orange: night image, green: day image, blue: night point cloud). We can observe that green and blue bars exhibit more similarity, which demonstrates the advantage in performing 3D-2D cross-modal retrieval.
       </h2>
     </div>
   </div>
@@ -152,7 +153,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent works on the global place recognition treat the task as a retrieval problem, where an off-the-shelf global descriptor is commonly designed in image-based and LiDAR-based modalities. However, it is non-trivial to perform accurate image-LiDAR global place recognition since extracting consistent and robust global descriptors from different domains (2D images and 3D point clouds) is challenging. To address this issue, we propose a novel Voxel-Cross-Pixel (VXP) approach, which establishes voxel and pixel correspondences in a self-supervised manner and brings them into a shared feature space. Specifically, VXP is trained in a two-stage manner that first explicitly exploits local feature correspondences and enforces similarity of global descriptors. Extensive experiments on the three benchmarks (Oxford RobotCar, ViViD++ and KITTI) demonstrate our method surpasses the state-of-the-art cross-modal retrieval by a large margin. The code will be publicly available.
           </p>
         </div>
       </div>
@@ -169,30 +170,44 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/oxford2d3d.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/oxford3d2d.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/retrieval_vis_day12_2d3d.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/retrieval_vis_kitti_3d2d.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/retrieval_vis_kitti_2d3d.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fifth image description.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/retrieval_vis_kitti_3d2d.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Sixth image description.
       </h2>
     </div>
   </div>
