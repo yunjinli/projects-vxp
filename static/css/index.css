@@ -125,10 +125,9 @@ body {
   margin: auto;
   display: block;
   font-size: 0; */
-  position: relative;
-  left: auto;
-  top: auto;
-  object-fit: fit;
+  display: flex;
+  justify-content: center;
+  height: 800px;
 }
 
 .results-carousel video {
