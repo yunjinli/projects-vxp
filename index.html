@@ -131,12 +131,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
         <!-- Your video here -->
         <!-- <source src="static/videos/banner_video.mp4" -->
-        <source src="static/images/teaser_figure_w_traj.jpg"
-        type="image/jpg">
-      </video>
+        <!-- <source src="static/images/teaser_figure_w_traj.jpg"
+        type="image/jpg"> -->
+        <img src="static/images/teaser_figure_w_traj.jpg" alt="MY ALT TEXT"/>
+      <!-- </video> -->
       <h2 class="subtitle has-text-centered">
         Voxel-Cross-Pixel (VXP) can effectively map data from different modalities into a same shared space, enabling more robust and flexible place recognition. The figure illustrates a case where we have a database recorded at day, and we want to localize the car when driving at night (Note that the blue cross in the map is the current location and the blue boxes are the corresponding data from camera and LiDAR). In this real- world case, uni-modal retrieval (2D-2D) fails because of the variation in light condition. With the aid of VXP, we can potentially use point cloud data, which is robust against environmental changes, to retrieve the correct image (green) in the database (3D-2D). Note that in the latent space, we try to visualize the value for each dimension of a given descriptor (orange: night image, green: day image, blue: night point cloud). We can observe that green and blue bars exhibit more similarity, which demonstrates the advantage in performing 3D-2D cross-modal retrieval.
       </h2>
