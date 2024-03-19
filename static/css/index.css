@@ -114,14 +114,16 @@ body {
   overflow: hidden;
 }
 
-.results-carousel .item {
-  /* margin: 5px; */
-  margin: 0;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+/* .results-carousel .item {
+  margin: 5px;
   overflow: hidden;
   padding: 20px;
+  font-size: 0;
+} */
+.results-carousel .item {
+  width: 80%;
+  margin: auto;
+  display: block;
   font-size: 0;
 }
 
