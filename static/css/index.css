@@ -121,10 +121,14 @@ body {
   font-size: 0;
 } */
 .results-carousel .item {
-  width: 80%;
+  /* width: 80%;
   margin: auto;
   display: block;
-  font-size: 0;
+  font-size: 0; */
+  position: relative;
+  left: auto;
+  top: auto;
+  object-fit: fit;
 }
 
 .results-carousel video {
