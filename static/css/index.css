@@ -111,12 +111,12 @@ body {
 }
 
 .results-carousel {
-  /* text-align: center; */
-  top: 50%;
+  text-align: center;
+  /* top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 .results-carousel .item {
