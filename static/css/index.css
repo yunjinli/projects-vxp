@@ -160,7 +160,7 @@ video {
 .grid-container video {
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 5%;
 }
 /* .videos {
   display: grid;
