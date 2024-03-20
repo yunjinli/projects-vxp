@@ -158,9 +158,9 @@ video {
 }
 
 .grid-container video {
-  display: flex;
+  display: grid;
   justify-content: center;
-  width: 5%;
+  width: 30%;
 }
 /* .videos {
   display: grid;
