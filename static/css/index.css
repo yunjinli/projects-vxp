@@ -150,10 +150,10 @@ video {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 200px;
+  /* padding: 200px; */
 }
 .grid-item {
-  /* padding: 20px; */
+  padding: 20px;
   text-align: center;
 }
 
