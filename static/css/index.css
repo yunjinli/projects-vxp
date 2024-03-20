@@ -141,9 +141,15 @@ body {
 /*
 Custom Style
 */
-video {
+/* video {
   width: 50%;
   float: left;
+} */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px dashed blue;
 }
-
 
