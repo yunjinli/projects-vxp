@@ -142,8 +142,9 @@ body {
 Custom Style
 */
 video {
-  width: 50%;
-  float: left;
+  display: grid;
+  /* width: 50%; */
+  /* float: left; */
 }
 .grid-container {
   display: grid;
