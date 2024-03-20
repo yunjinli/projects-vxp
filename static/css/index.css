@@ -141,10 +141,10 @@ body {
 /*
 Custom Style
 */
-/* video {
+video {
   width: 50%;
   float: left;
-} */
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
