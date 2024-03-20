@@ -150,17 +150,17 @@ video {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 50px;
+  padding: 100px;
 }
 .grid-item {
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
 }
 
 .grid-container video {
   display: grid;
   justify-content: center;
-  width: 30%;
+  width: 50%;
 }
 /* .videos {
   display: grid;
