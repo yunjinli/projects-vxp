@@ -142,7 +142,7 @@ body {
 Custom Style
 */
 video {
-  display: grid;
+  display: block;
   /* width: 50%; */
   /* float: left; */
 }
@@ -154,6 +154,11 @@ video {
 .grid-item {
   padding: 20px;
   text-align: center;
+}
+
+.grid-container video {
+  display: flex;
+  justify-content: center;
 }
 /* .videos {
   display: grid;
