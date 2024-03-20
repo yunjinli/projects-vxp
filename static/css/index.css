@@ -145,11 +145,20 @@ Custom Style
   width: 50%;
   float: left;
 } */
-.videos {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+/* .videos {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
   padding: 0.5rem;
   border: 1px dashed blue;
-}
+} */
 
