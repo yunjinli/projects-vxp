@@ -158,9 +158,10 @@ video {
 }
 
 .grid-container video {
-  display: grid;
+  text-align: center;
+  display: block;
   justify-content: center;
-  /* width: 80%; */
+  /* width: 50%; */
 }
 /* .videos {
   display: grid;
