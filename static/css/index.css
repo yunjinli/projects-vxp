@@ -147,6 +147,7 @@ video {
   /* float: left; */
 }
 .grid-container {
+  text-align: center;
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
