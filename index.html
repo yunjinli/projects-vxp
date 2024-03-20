@@ -127,7 +127,7 @@
 </section>
 
 
-<video autoplay loop muted>
+<!-- <video autoplay loop muted>
   <source src="static/videos/day1_evening_video_2D-3D.mp4" type="video/mp4" width="80%">
 </video>
 <video autoplay loop muted>
@@ -138,7 +138,7 @@
 </video>
 <video autoplay loop muted>
   <source src="static/videos/day1_evening_video_3D-3D.mp4" type="video/mp4" width="80%">
-</video>
+</video> -->
 
 <!-- Teaser video-->
 <section class="hero teaser">
@@ -149,8 +149,20 @@
         <!-- <source src="static/videos/banner_video.mp4" -->
         <!-- <source src="static/images/teaser_figure_w_traj.jpg"
         type="image/jpg"> -->
+        
+        <!-- <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <video poster="" id="tree" autoplay controls muted loop width="50%">
+        <!-- Your video here -->
+        <source src="static/videos/day1_evening_video_2D-3D.mp4"
+        type="video/mp4">
+        </video>
+        <video poster="" id="tree" autoplay controls muted loop width="50%">
+          <!-- Your video here -->
+          <source src="static/videos/day1_evening_video_3D-2D.mp4"
+          type="video/mp4">
+        </video>
         <img src="static/images/teaser_figure_w_traj.jpg" alt="MY ALT TEXT"/>
-      <!-- </video> -->
+        
       <h2 class="subtitle has-text-centered">
         Voxel-Cross-Pixel (VXP) can effectively map data from different modalities into a same shared space, enabling more robust and flexible place recognition.
       </h2>
